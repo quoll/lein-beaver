@@ -4,4 +4,4 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :eval-in-leiningen true
   :dependencies [[net.sf.beaver/beaver-ant "0.9.9"]
-                 [de.jflex/jflex "1.4.3"]])
+                 [de.jflex/jflex "1.6.1"]])

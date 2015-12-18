@@ -9,7 +9,7 @@
         [leiningen.clean :only (delete-file-recursively)])
   (:import [java.io File FileFilter]
            [java.util.regex Pattern]
-           [JFlex Main]
+           [jflex Main]
            [beaver.comp ParserGenerator]
            [beaver.comp.io SrcReader]
            [beaver.comp.util Log]))
@@ -80,10 +80,10 @@
   (let [src-files (files-of-type src-dir syntax-files)]
     (if (empty? src-files) (println src-dir " has no grammar files")
       (do
-        (if (get opts :verbose false) (set! JFlex.Options/verbose true))
+        (if (get opts :verbose false) (set! jflex.Options/verbose true))
         (doseq [^File file src-files]
           (if-not *silently* (println "Generating scanner from" (str file)))
-          (JFlex.Options/setDir (determine-out-dir dest-dir file))
+          (jflex.Options/setDir (determine-out-dir dest-dir file))
           (Main/generate file))))))
 
 (defn run-beaver
