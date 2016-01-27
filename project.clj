@@ -1,4 +1,4 @@
-(defproject lein-beaver "0.1.2-SNAPSHOT"
+(defproject org.clojars.kostafey/lein-beaver "0.1.3"
   :description "Beaver plugin for Leiningen"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}

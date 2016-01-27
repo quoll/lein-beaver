@@ -4,7 +4,8 @@ A Leiningen plugin to wrap the Beaver compiler generator and the JFlex lexer gen
 
 ## Usage
 
-Put `[lein-beaver "0.1.2-SNAPSHOT"]` into the `:plugins` vector of your project.clj.
+Put [![Clojars Project](https://img.shields.io/clojars/v/org.clojars.kostafey/lein-beaver.svg)](https://clojars.org/org.clojars.kostafey/lein-beaver)
+into the `:plugins` vector of your project.clj.
 
 The beaver task can be invoked directly as a target:
 
