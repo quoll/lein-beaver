@@ -81,6 +81,6 @@ The following is a simple project.clj file for building a parser:
 
 ## License
 
-Copyright © 2012 Paul Gearon
+Copyright © 2012 Paula Gearon
 
 Distributed under the Eclipse Public License, the same as Clojure.
